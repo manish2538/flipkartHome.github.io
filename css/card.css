@@ -1,0 +1,136 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    font-size: 15px;
+    font-style: normal;
+    /* line-height: 32px; */
+    font-weight: 300;
+    background-color:rgb(255, 253, 253);
+    margin:10px 35px;
+}
+.card-title{
+    display: block;
+   border: 0.5px solid grey;
+   width: 93vw;
+   margin: 10px 35px;
+    /* background-color: black; */
+}
+.card6{
+
+    display: flex;
+    margin: 10px 35px;
+    padding-left: 5px;
+    align-items: center;
+
+    background-color: rgb(255, 253, 253);
+    width:93vw;
+    height: 10vh;
+
+    font-size: 22px;
+    line-height: 32px;
+    /* display: inline-block; */
+    font-weight: 500;
+    
+
+}
+.card6-button {
+   
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    position: relative;
+    top: -43px;
+    border-color:none;
+    font
+    
+}
+.text1{
+    text-align: center;
+}
+.card1,.card2,.card3,.card4,.card5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 40vh;
+    
+    background-color:rgb(255, 253, 253);
+}
+
+.card1:hover{
+    /* background-color: black; */
+    image-resolution: 160 * 160;
+    cursor:pointer;
+ size: 50px;
+}
+
+.card2:hover{
+    /* background-color: black; */
+    image-resolution: 160 * 160;
+    cursor:pointer;
+ size: 50px;
+}
+
+.card3:hover{
+    /* background-color: black; */
+    image-resolution: 160 * 160;
+    cursor:pointer;
+ size: 50px;
+}
+
+.card4:hover{
+    /* background-color: black; */
+    image-resolution: 160 * 160;
+    cursor:pointer;
+ size: 50px;
+}
+
+
+.text-green{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    color: green;
+}
+
+.card5:hover{
+    /* background-color: black; */
+    image-resolution: 160 * 160;
+    cursor:pointer;
+ size: 50px;
+}
+
+/* .card img:hover,
+img:focus{
+  width:170px;
+  height: 170px;
+} */
+
+.text-opacity{
+    opacity: 0.5;
+}
+
+.card-poster{
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+
+}
+.card-poster1{
+    /* background-color: blue; */
+    border-radius: 10px;
+}
+.card-poster2{
+    /* background-color: blue; */
+    border-radius: 30px;
+}
+.poster-images{
+    display: flex;
+    justify-content: center;
+    width: 100vw ;
+}
+.img-centre{
+    display: flex;
+    justify-content: center;
+    margin:50px 0;
+}
