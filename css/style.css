@@ -53,13 +53,11 @@
     width: 325px; */
 }
 .search-logo{
-    width: 15px;
-    
-    height: 18px;
+    width: 52px;
+    height: 28px;
     position: relative;
-    left: -88px;
-    top: 4px;
-
+    top: 1px;
+    left: -57px;
 }
 
 
@@ -93,6 +91,10 @@ header nav ul li {
 header nav ul li a {
    text-decoration: none;
    color: white;
+} 
+header nav ul {
+ 
+   margin:auto;
 } 
 .login{
     border: 1px solid white;

@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/card.css">
     <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
 <body>
     <div class="header-container">
@@ -49,8 +50,9 @@
                                 </div>
                             </li>
 
-                            <li><input id="search" type="text" placeholder="Search for products,brands and more"></li>
-                            <li><img class="search-logo" src="img/search.png" alt="search"></li>
+                            <li><input id="search" type="text" placeholder="Search for products,brands and more"><img
+                                    class="search-logo" src="img/search.png" alt="search"></li>
+
                             <div class="login">
                                 <li>Login</li>
                             </div>
@@ -63,162 +65,249 @@
         </div>
     </div>
     <div>
-        <div class="main-body">
-            <div class="main-container">
-                <main>
-                    <div class="space" style="height: 15vh;"></div>
-                    <div id="demo" class="carousel slide" data-ride="carousel" ;>
+        <div class="body-color">
+            <div class="main-body">
+                <div class="main-container">
+                    <main>
+                        <div class="space" style="height: 15vh;"></div>
+                        <div id="demo" class="carousel slide" data-ride="carousel" ;>
 
-                        <!-- Indicators -->
-                        <ul class="carousel-indicators">
-                            <li data-target="#demo" data-slide-to="0" class="active"></li>
-                            <li data-target="#demo" data-slide-to="1"></li>
-                            <li data-target="#demo" data-slide-to="2"></li>
-                        </ul>
+                            <!-- Indicators -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo" data-slide-to="1"></li>
+                                <li data-target="#demo" data-slide-to="2"></li>
+                            </ul>
 
-                        <!-- The slideshow -->
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/slider1.jfif" alt="Los Angeles" width="1100" height="500">
+                            <!-- The slideshow -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/slider1.jfif" alt="Los Angeles" width="1100" height="500">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slider2.jfif" alt="Chicago" width="1100" height="500">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/slider3.jfif" alt="New York" width="1100" height="500">
+                                </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="img/slider2.jfif" alt="Chicago" width="1100" height="500">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/slider3.jfif" alt="New York" width="1100" height="500">
-                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#demo" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
                         </div>
 
-                        <!-- Left and right controls -->
-                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                            <span class="carousel-control-prev-icon"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#demo" data-slide="next">
-                            <span class="carousel-control-next-icon"></span>
-                        </a>
-                    </div>
-
-                    <!-- --------------card-------------------- -->
+                        <!-- --------------card-------------------- -->
 
 
-                    <div class="card-start">
-                        <div class="card-title">
-                            <div class="card6">
-                                Top deals
+                        <div class="card-start">
+                            <div class="card-title">
+                                <div class="card6">
+                                    <span>Top deals</span>
+                                    <div class="card6-button">
+                                        <button class="view-all">VIEW ALL</button>
+                                    </div>
+                                </div>
 
                             </div>
-                            <div class="card6-button">
-                                <button style="background-color: #2874F0; color:white">VIEW ALL</button>
-                            </div>
-                        </div>
-                        <hr>
-                        <div class="card">
-
                             <hr>
+                            <div class="card">
 
-                            <div class="card1">
-                                <div class="text1">
-                                    <img src="img/card1.jfif" alt="camera">
+                                <hr>
 
-                                    <br>
+                                <div class="card1">
                                     <div class="text1">
-                                        <span>Sony</span><br>
-                                        <span class="text-green">Min 20% off</span><br>
-                                        <span class="text-opacity">Grab Now!!</span><br>
+                                        <img src="img/card1.jfif" alt="camera">
+
+                                        <br>
+                                        <div class="text1">
+                                            <span>Sony</span><br>
+                                            <span class="text-green">Min 20% off</span><br>
+                                            <span class="text-opacity">Grab Now!!</span><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
 
-                            <div class="card2">
-                                <div class="text1">
-                                    <img src="img/card2.jfif" alt="camera">
-
-                                    <br>
+                                <div class="card2">
                                     <div class="text1">
-                                        <span>Men's Clothing</span><br>
-                                        <span class="text-green">Min 20% off</span><br>
-                                        <span class="text-opacity">Grab Now!!</span><br>
+                                        <img src="img/card2.jfif" alt="camera">
+
+                                        <br>
+                                        <div class="text1">
+                                            <span>Men's Clothing</span><br>
+                                            <span class="text-green">Min 20% off</span><br>
+                                            <span class="text-opacity">Grab Now!!</span><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card3">
-                                <div class="text1">
-                                    <img src="img/card3.jfif" alt="camera">
-
-                                    <br>
+                                <div class="card3">
                                     <div class="text1">
-                                        <span>Laptops</span><br>
-                                        <span class="text-green">Min 20% off</span><br>
-                                        <span class="text-opacity">Grab Now!!</span><br>
+                                        <img src="img/card3.jfif" alt="camera">
+
+                                        <br>
+                                        <div class="text1">
+                                            <span>Laptops</span><br>
+                                            <span class="text-green">Min 20% off</span><br>
+                                            <span class="text-opacity">Grab Now!!</span><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card4">
-                                <div class="text1">
-                                    <img src="img/card4.jfif" alt="camera">
-
-                                    <br>
+                                <div class="card4">
                                     <div class="text1">
-                                        <span>Bottle</span><br>
-                                        <span class="text-green">Min 20% off</span><br>
-                                        <span class="text-opacity">Grab Now!!</span><br>
+                                        <img src="img/card4.jfif" alt="camera">
+
+                                        <br>
+                                        <div class="text1">
+                                            <span>Bottle</span><br>
+                                            <span class="text-green">Min 20% off</span><br>
+                                            <span class="text-opacity">Grab Now!!</span><br>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card5">
-                                <div class="text1">
-                                    <img src="img/card5.jfif" alt="camera">
-
-                                    <br>
+                                <div class="card5">
                                     <div class="text1">
-                                        <span>Mobile Phones</span><br>
-                                        <span class="text-green">Min 20% off</span><br>
-                                        <span class="text-opacity">Grab Now!!</span><br>
+                                        <img src="img/card5.jfif" alt="camera">
+
+                                        <br>
+                                        <div class="text1">
+                                            <span>Mobile Phones</span><br>
+                                            <span class="text-green">Min 20% off</span><br>
+                                            <span class="text-opacity">Grab Now!!</span><br>
+                                        </div>
                                     </div>
                                 </div>
+
+
                             </div>
+                        </div>
+                </div>
 
+                <!-- --------------card-------------------- -->
+                <!-- -----------------card-deals----------------->
 
+                <div class="card-poster">
+                    <div class="card-poster1">
+                        <div class="img1">
+                            <img width="434px" height="226px" src="img/poster1.jpg" alt="">
                         </div>
                     </div>
+                    <div class="card-poster2">
+                        <div class="img1">
+                            <img width="434px" height="226px" src="img/flipkartsales.jfif" alt="">
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- -------------------card-deal--------------- -->
+
+                <!-- -------------images---------poster-------------- -->
+                <div class="img-centre">
+                    <img src="img/gameplay.jpg" alt="">
+                </div>
+                <!-- -------------images---------poster-------------- -->
+                <!-- --------------card-------------------- -->
+
+
+                <div class="card-start">
+                    <div class="card-title">
+                        <div class="card6">
+                            <span>Top deals</span>
+                            <div class="card6-button">
+                                <button class="view-all">VIEW ALL</button>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="card">
+
+                        <hr>
+
+                        <div class="card1">
+                            <div class="text1">
+                                <img src="img/card1.jfif" alt="camera">
+
+                                <br>
+                                <div class="text1">
+                                    <span>Sony</span><br>
+                                    <span class="text-green">Min 20% off</span><br>
+                                    <span class="text-opacity">Grab Now!!</span><br>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="card2">
+                            <div class="text1">
+                                <img src="img/card2.jfif" alt="camera">
+
+                                <br>
+                                <div class="text1">
+                                    <span>Men's Clothing</span><br>
+                                    <span class="text-green">Min 20% off</span><br>
+                                    <span class="text-opacity">Grab Now!!</span><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card3">
+                            <div class="text1">
+                                <img src="img/card3.jfif" alt="camera">
+
+                                <br>
+                                <div class="text1">
+                                    <span>Laptops</span><br>
+                                    <span class="text-green">Min 20% off</span><br>
+                                    <span class="text-opacity">Grab Now!!</span><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card4">
+                            <div class="text1">
+                                <img src="img/card4.jfif" alt="camera">
+
+                                <br>
+                                <div class="text1">
+                                    <span>Bottle</span><br>
+                                    <span class="text-green">Min 20% off</span><br>
+                                    <span class="text-opacity">Grab Now!!</span><br>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card5">
+                            <div class="text1">
+                                <img src="img/card5.jfif" alt="camera">
+
+                                <br>
+                                <div class="text1">
+                                    <span>Mobile Phones</span><br>
+                                    <span class="text-green">Min 20% off</span><br>
+                                    <span class="text-opacity">Grab Now!!</span><br>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
 
             <!-- --------------card-------------------- -->
-            <!-- -----------------card-deals----------------->
 
-            <div class="card card-poster">
-                <div class="card1 card-poster1">
-                    <div class="img1">
-                        <img width="434px" height="226px" src="img/poster1.jpg" alt="">
-                    </div>
-                </div>
-                <div class="card2 card-poster2">
-                    <div class="img1">
-                        <img width="434px" height="226px" src="img/flipkartsales.jfif" alt="">
-                    </div>
-                </div>
-
-
-            </div>
-            <!-- -------------------card-deal--------------- -->
-
-            <!-- -------------images---------poster-------------- -->
-            <div class="img-centre">
-                <img src="img/gameplay.jpg" alt="">
-            </div>
-            <!-- -------------images---------poster-------------- -->
             <!-- --------------card-------------------- -->
 
 
             <div class="card-start">
                 <div class="card-title">
                     <div class="card6">
-                        Top deals
-
-                    </div>
-                    <div class="card6-button">
-                        <button style="background-color: #2874F0; color:white">VIEW ALL</button>
+                        <span>Top deals</span>
+                        <div class="card6-button">
+                            <button class="view-all">VIEW ALL</button>
+                        </div>
                     </div>
                 </div>
                 <hr>
@@ -266,7 +355,7 @@
                     </div>
                     <div class="card4">
                         <div class="text1">
-                            <img src="img/card3.jfif" alt="camera">
+                            <img src="img/card4.jfif" alt="camera">
 
                             <br>
                             <div class="text1">
@@ -296,17 +385,21 @@
 
         <!-- --------------card-------------------- -->
 
+        <!-- -------------images---------poster-------------- -->
+        <div class="img-centre">
+            <img src="img/Flipkart-Smartphones-Carnival-1068x384.jpg" alt="">
+        </div>
+        <!-- -------------images---------poster-------------- -->
         <!-- --------------card-------------------- -->
 
 
         <div class="card-start">
             <div class="card-title">
                 <div class="card6">
-                    Top deals
-
-                </div>
-                <div class="card6-button">
-                    <button style="background-color: #2874F0; color:white">VIEW ALL</button>
+                    <span>Top deals</span>
+                    <div class="card6-button">
+                        <button class="view-all">VIEW ALL</button>
+                    </div>
                 </div>
             </div>
             <hr>
@@ -354,7 +447,7 @@
                 </div>
                 <div class="card4">
                     <div class="text1">
-                        <img src="img/card3.jfif" alt="camera">
+                        <img src="img/card4.jfif" alt="camera">
 
                         <br>
                         <div class="text1">
@@ -392,15 +485,16 @@
     <!-- --------------card-------------------- -->
 
 
+
     <div class="card-start">
         <div class="card-title">
             <div class="card6">
-                Top deals
+                <span>Top deals</span>
+                <div class="card6-button">
+                    <button class="view-all">VIEW ALL</button>
+                </div>
+            </div>
 
-            </div>
-            <div class="card6-button">
-                <button style="background-color: #2874F0; color:white">VIEW ALL</button>
-            </div>
         </div>
         <hr>
         <div class="card">
@@ -447,101 +541,7 @@
             </div>
             <div class="card4">
                 <div class="text1">
-                    <img src="img/card3.jfif" alt="camera">
-
-                    <br>
-                    <div class="text1">
-                        <span>Bottle</span><br>
-                        <span class="text-green">Min 20% off</span><br>
-                        <span class="text-opacity">Grab Now!!</span><br>
-                    </div>
-                </div>
-            </div>
-            <div class="card5">
-                <div class="text1">
-                    <img src="img/card5.jfif" alt="camera">
-
-                    <br>
-                    <div class="text1">
-                        <span>Mobile Phones</span><br>
-                        <span class="text-green">Min 20% off</span><br>
-                        <span class="text-opacity">Grab Now!!</span><br>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-    </div>
-
-    <!-- --------------card-------------------- -->
-
-    <!-- -------------images---------poster-------------- -->
-    <div class="img-centre">
-        <img src="img/Flipkart-Smartphones-Carnival-1068x384.jpg" alt="">
-    </div>
-    <!-- -------------images---------poster-------------- -->
-    <!-- --------------card-------------------- -->
-
-
-
-    <div class="card-start">
-        <div class="card-title">
-            <div class="card6">
-                Top deals
-
-            </div>
-            <div class="card6-button">
-                <button style="background-color: #2874F0; color:white">VIEW ALL</button>
-            </div>
-        </div>
-        <hr>
-        <div class="card">
-
-            <hr>
-
-            <div class="card1">
-                <div class="text1">
-                    <img src="img/card1.jfif" alt="camera">
-
-                    <br>
-                    <div class="text1">
-                        <span>Sony</span><br>
-                        <span class="text-green">Min 20% off</span><br>
-                        <span class="text-opacity">Grab Now!!</span><br>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="card2">
-                <div class="text1">
-                    <img src="img/card2.jfif" alt="camera">
-
-                    <br>
-                    <div class="text1">
-                        <span>Men's Clothing</span><br>
-                        <span class="text-green">Min 20% off</span><br>
-                        <span class="text-opacity">Grab Now!!</span><br>
-                    </div>
-                </div>
-            </div>
-            <div class="card3">
-                <div class="text1">
-                    <img src="img/card3.jfif" alt="camera">
-
-                    <br>
-                    <div class="text1">
-                        <span>Laptops</span><br>
-                        <span class="text-green">Min 20% off</span><br>
-                        <span class="text-opacity">Grab Now!!</span><br>
-                    </div>
-                </div>
-            </div>
-            <div class="card4">
-                <div class="text1">
-                    <img src="img/card3.jfif" alt="camera">
+                    <img src="img/card4.jfif" alt="camera">
 
                     <br>
                     <div class="text1">
@@ -590,11 +590,10 @@
     <div class="card-start">
         <div class="card-title">
             <div class="card6">
-                Top deals
-
-            </div>
-            <div class="card6-button">
-                <button style="background-color: #2874F0; color:white">VIEW ALL</button>
+                <span>Top deals</span>
+                <div class="card6-button">
+                    <button class="view-all">VIEW ALL</button>
+                </div>
             </div>
         </div>
         <hr>
@@ -642,7 +641,7 @@
             </div>
             <div class="card4">
                 <div class="text1">
-                    <img src="img/card3.jfif" alt="camera">
+                    <img src="img/card4.jfif" alt="camera">
 
                     <br>
                     <div class="text1">
@@ -684,13 +683,13 @@
 
     <!-- -----------------card-deals----------------->
 
-    <div class="card card-poster">
-        <div class="card1 card-poster1">
+    <div class="card-poster">
+        <div class="card-poster1">
             <div class="img1">
                 <img width="434px" height="226px" src="img/poster1.jpg" alt="">
             </div>
         </div>
-        <div class="card2 card-poster2">
+        <div class="card-poster2">
             <div class="img1">
                 <img width="434px" height="226px" src="img/flipkart offers.jfif" alt="">
             </div>
@@ -704,11 +703,10 @@
     <div class="card-start">
         <div class="card-title">
             <div class="card6">
-                Top deals
-
-            </div>
-            <div class="card6-button">
-                <button style="background-color: #2874F0; color:white">VIEW ALL</button>
+                <span>Top deals</span>
+                <div class="card6-button">
+                    <button class="view-all">VIEW ALL</button>
+                </div>
             </div>
         </div>
         <hr>
@@ -756,7 +754,7 @@
             </div>
             <div class="card4">
                 <div class="text1">
-                    <img src="img/card3.jfif" alt="camera">
+                    <img src="img/card4.jfif" alt="camera">
 
                     <br>
                     <div class="text1">
@@ -781,6 +779,7 @@
 
 
         </div>
+    </div>
     </div>
     </div>
 
